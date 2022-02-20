@@ -1,0 +1,33 @@
+body{
+    padding: 30px;
+    .form-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        justify-content: center;
+
+        .custom-select{
+            display: block;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            width: 100%;
+        }
+
+        .col-form{
+            width: 22%;
+        }
+
+        .btn-form{
+            width:10%;
+        }
+    }
+}
